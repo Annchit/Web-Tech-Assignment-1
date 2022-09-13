@@ -14,6 +14,8 @@ public class Assignment1Que3
         sc.close();
 
         double quotient = Math.floor(firstInput/secondInput);
+        // Math.floor() give the integer part of a number which contains decimal digits as well
+        // the closest integer smaller than the output of division of two numbers gives the quotient of the division
         double remainder = firstInput%secondInput;
         
         System.out.println("the resulting quotient is " + quotient);
