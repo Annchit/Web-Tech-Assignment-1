@@ -21,6 +21,9 @@ public class Assignment1Que4 {
         }
         else{
             firstInput = firstInput ^ secondInput;
+            // "a ^ b" is the bitwise XOR of a and b
+            // by doing XOR of two numbers, we can reobtain the first number again by performing
+            // a subsequent XOR operation of the current result with the second number and vice-versa 
             secondInput = firstInput ^ secondInput;
             firstInput = firstInput ^ secondInput;
         }
